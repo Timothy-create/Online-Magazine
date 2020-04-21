@@ -4,106 +4,109 @@ body{
 }
 
 #container{
-    max-width: 100%;
+    max-width: 1500px;
     height: 50%;
 }
-header {
+
+header{
     background-color: #fff;
     display: flex;
     margin-left: 20px; 
-  }
+}
   
-  .header-img{
+.header-img{
   display: flex;
   align-items: center;
-  }
+}
   
-  .header-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 30px;
-    }
+.header-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
 
-  #first-section{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .first-img-box{
-       width: 630px;
-    }
-    
-    .first-text{
-        width: 630px;
-        background-color: #000;
-        color: #fff;
-    }
-    .first-section-img{
-        background-image: url('images/philip-martin.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        object-fit: cover;
-        padding-top: 90%;
-    }
-    
-    .first-wrapper{
-        margin: 0 70px;
-    }
+#first-section{
+  display: flex;
+  flex-wrap: wrap;
+}
 
-    .date-box{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 70px;
-        }
+.first-img-box{
+   width: 730px;
+}
     
-    .date-box1{
-        display: flex;
-        justify-content: space-between;
-         margin-top: 10px; 
-    }
+.first-text{
+   width: 730px;
+   background-color: #000;
+   color: #fff;
+}
+
+.first-section-img{
+   background-image: url('images/philip-martin.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   object-fit: cover;
+   padding-top: 90%;
+}
+    
+.first-wrapper{
+   margin: 0 70px;
+}
+
+.date-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+    
+.date-box1{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px; 
+}
         
-        .date{
-          letter-spacing: 5px;
-          font-style: normal;
-          font-weight: normal;
-           color: #fff; 
-        }
-        .lifestyle{
-          text-transform: uppercase;
-          letter-spacing: 3px;
-          text-decoration: underline;
-        }
+.date{
+  letter-spacing: 5px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff; 
+}
+
+.lifestyle{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
         
-        .h1-second-section{
-          text-transform: uppercase;
-          font-size: 20px;
-          line-height: 50px;
-          font-weight: normal;
-          font-style: normal;
-        }
+.h1-second-section{
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: normal;
+  font-style: normal;
+}
         
-        .pTag-second-section{
-        font-weight: normal;
-        font-size: 15px;
-        font-style:normal ;
-        margin-top: 5px;
-        line-height: 20px;
-        }
+.pTag-second-section{
+   font-weight: normal;
+   font-size: 15px;
+   font-style:normal ;
+   margin-top: 5px;
+   line-height: 20px;
+}
         
-  .read-more-btn{
-    display: flex;
-     background-color: #000;
-     color: #fff;
-     padding:18px 50px;
-    justify-content: center;
-    align-items: center;
+.read-more-btn{
+   display: flex;
+   background-color: #000;
+   color: #fff;
+   padding:18px 50px;
+   justify-content: center;
+   align-items: center;
    margin-top: 60px;
    border: 1px solid white;
-        } 
+} 
     
-
 #main-wrapper{
     margin: 0 50px;
 }
@@ -113,6 +116,7 @@ h3{
     font-weight: bold;
     margin-top: 40px;
 }
+
 .section-part-A{
     width: 520px;
 }
@@ -144,13 +148,14 @@ h3{
     font-style: normal;
     font-weight: normal;
     font-weight: bold;
-  }
-  .lifestyle1{
+}
+
+.lifestyle1{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-decoration: underline;
     font-weight: bold;
-  }
+}
 
 .h1-second-section1{
     font-size: 30px;
@@ -177,15 +182,7 @@ h3{
     flex-wrap: wrap;
 }
 
-.third-section-part-A{
-    width: 330px;
-}
-
-.third-section-part-B{
-    width: 330px;
-}
-
-.third-section-part-C{
+.third-section-part-A, .third-section-part-B, .third-section-part-c{
     width: 330px;
 }
 
@@ -359,15 +356,45 @@ input:hover{
     font-size: 12px;
 }
 
-/* @media screen and (max-width:1500px){
+@media screen and (max-width:1460px){
     .first-img-box{
-        width: 800px;
+        width: 700px;
      }
      
      .first-text{
-         width: 800px;
+         width: 700px;
      }
-} */
+}
+
+@media screen and (max-width:1395px){
+    .first-img-box{
+        width: 660px;
+     }
+     
+     .first-text{
+         width: 660px;
+     }
+}
+
+@media screen and (max-width:1300px){
+    .first-img-box{
+        width: 640px;
+     }
+     
+     .first-text{
+         width: 640px;
+     }
+}
+
+@media screen and (max-width:1260px){
+    .first-img-box{
+        width: 600px;
+     }
+     
+     .first-text{
+         width: 600px;
+     }
+}
 
 @media screen and (max-width:900px){
     .first-wrapper{
@@ -389,11 +416,10 @@ input:hover{
         line-height: 25px;
         }
         
-  .read-more-btn{
-     padding:18px 40px;
-   margin-bottom: 30px;
-
-        } 
+        .read-more-btn{
+        padding:18px 40px;
+        margin-bottom: 30px;
+       } 
 
         .section-4-wrapper{
             margin-top: 110px;
@@ -428,61 +454,61 @@ input:hover{
     }
 
     .date-box{
-        margin-top: 30px;
-        }
+     margin-top: 30px;
+     }
         
-        .date{
-          letter-spacing: 3px;
-        }
-        .lifestyle{
-          letter-spacing: 2px;
-        }
+    .date{
+     letter-spacing: 3px;
+    }
+    .lifestyle{
+     letter-spacing: 2px;
+    }
         
-        .h1-second-section{
-          font-size: 15px;
-          line-height: 40px;
-        }
+    .h1-second-section{
+     font-size: 15px;
+    line-height: 40px;
+    }
         
-        .pTag-second-section{
-        font-size: 13px;
-        margin-top: 5px;
-        line-height: 20px;
-        }
+    .pTag-second-section{
+     font-size: 13px;
+     margin-top: 5px;
+     line-height: 20px;
+    }
         
-  .read-more-btn{
+    .read-more-btn{
      padding:18px 40px;
-   margin-bottom: 30px;
-        } 
+     margin-bottom: 30px;
+     } 
     
-        .h1-second-section1{
-            font-size: 22px;
-            line-height: 30px;
-        }
+    .h1-second-section1{
+      font-size: 22px;
+      line-height: 30px;
+    }
         
-        .h1-second-section2{
-            font-size: 18px;
-            line-height: 22px;
-        }
+    .h1-second-section2{
+      font-size: 18px;
+      line-height: 22px;
+    }
         
-        .pTag-second-section1{
-          line-height: 22px;
-          font-size: 15px;
-        }
+    .pTag-second-section1{
+      line-height: 22px;
+      font-size: 15px;
+    }
 
-        footer{
-            padding: 5px;
-        }
+    footer{
+      padding: 5px;
+    }
        
-       .footer-title{
-           font-size: 15px;
-       }
+    .footer-title{
+      font-size: 15px;
+     }
        
-       .footer-pTag{
-           font-size: 10px;
-       }
+    .footer-pTag{
+      font-size: 10px;
+    }
 
     #first-section #second-section #third-section #fourth-section{
-        margin-bottom: 20px;
+      margin-bottom: 20px;
     }
 
     .third-section-part-A {
